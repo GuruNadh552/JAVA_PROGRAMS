@@ -1,0 +1,130 @@
+run:
+enter the no of elements :9
+65
+70
+75
+80
+85
+60
+55
+50
+45
+65 70 75 80 85 60 55 50 45 65 70 75 80 85 60 55 50 45 
+
+here pivot is 65
+and i is at 0 position and a[i]<=p 65<=65
+a[i]=70 a[i]>p so stop i++ go for decrementing j. j is at8
+a[j]=45 a[j]<p so stop j--
+i<j 1< 8 so swap a[i] and a[j]
+65 45 75 80 85 60 55 50 70 
+and i is at 1 position and a[i]<=p 45<=65
+a[i]=75 a[i]>p so stop i++ go for decrementing j. j is at8
+ and j is at 8 position and a[i]<=p70>65
+a[j]=50 a[j]<p so stop j--
+i<j 2< 7 so swap a[i] and a[j]
+65 45 50 80 85 60 55 75 70 
+
+
+and i is at 2 position and a[i]<=p 50<=65
+a[i]=80 a[i]>p so stop i++ go for decrementing j. j is at7
+ and j is at 7 position and a[i]<=p75>65
+a[j]=55 a[j]<p so stop j--
+i<j 3< 6 so swap a[i] and a[j]
+65 45 50 55 85 60 80 75 70 
+
+and i is at 3 position and a[i]<=p 55<=65
+a[i]=85 a[i]>p so stop i++ go for decrementing j. j is at6
+ and j is at 6 position and a[i]<=p80>65
+a[j]=60 a[j]<p so stop j--
+i<j 4< 5 so swap a[i] and a[j]
+65 45 50 55 60 85 80 75 70 
+and i is at 4 position and a[i]<=p 60<=65
+a[i]=85 a[i]>p so stop i++ go for decrementing j. j is at5
+ and j is at 5 position and a[i]<=p85>65
+a[j]=60 a[j]<p so stop j--
+i>j 5>4so swap a[j] and p
+60 45 50 55 65 85 80 75 70 
+
+
+here pivot is 60
+and i is at 0 position and a[i]<=p 60<=60
+and i is at 1 position and a[i]<=p 45<=60
+and i is at 2 position and a[i]<=p 50<=60
+a[i]=55 a[i]>p so stop i++ go for decrementing j. j is at3
+a[j]=55 a[j]<p so stop j--
+i>j 3>3so swap a[j] and p
+55 45 50 60 65 85 80 75 70 
+
+here pivot is 55
+and i is at 0 position and a[i]<=p 55<=55
+and i is at 1 position and a[i]<=p 45<=55
+a[i]=50 a[i]>p so stop i++ go for decrementing j. j is at2
+a[j]=50 a[j]<p so stop j--
+i>j 2>2so swap a[j] and p
+50 45 55 60 65 85 80 75 70 
+
+here pivot is 50
+and i is at 0 position and a[i]<=p 50<=50
+a[i]=45 a[i]>p so stop i++ go for decrementing j. j is at1
+a[j]=45 a[j]<p so stop j--
+i>j 1>1so swap a[j] and p
+45 50 55 60 65 85 80 75 70 
+
+here pivot is 55
+and i is at 2 position and a[i]<=p 55<=55
+a[i]=60 a[i]>p so stop i++ go for decrementing j. j is at3
+ and j is at 3 position and a[i]<=p60>55
+a[j]=55 a[j]<p so stop j--
+i>j 3>2so swap a[j] and p
+45 50 55 60 65 85 80 75 70 
+
+here pivot is 60
+and i is at 3 position and a[i]<=p 60<=60
+a[i]=65 a[i]>p so stop i++ go for decrementing j. j is at8
+ and j is at 8 position and a[i]<=p70>60
+ and j is at 7 position and a[i]<=p75>60
+ and j is at 6 position and a[i]<=p80>60
+ and j is at 5 position and a[i]<=p85>60
+ and j is at 4 position and a[i]<=p65>60
+a[j]=60 a[j]<p so stop j--
+i>j 4>3so swap a[j] and p
+45 50 55 60 65 85 80 75 70 
+
+here pivot is 65
+and i is at 4 position and a[i]<=p 65<=65
+a[i]=85 a[i]>p so stop i++ go for decrementing j. j is at8
+ and j is at 8 position and a[i]<=p70>65
+ and j is at 7 position and a[i]<=p75>65
+ and j is at 6 position and a[i]<=p80>65
+ and j is at 5 position and a[i]<=p85>65
+a[j]=65 a[j]<p so stop j--
+i>j 5>4so swap a[j] and p
+45 50 55 60 65 85 80 75 70 
+
+here pivot is 85
+and i is at 5 position and a[i]<=p 85<=85
+and i is at 6 position and a[i]<=p 80<=85
+and i is at 7 position and a[i]<=p 75<=85
+a[i]=70 a[i]>p so stop i++ go for decrementing j. j is at8
+a[j]=70 a[j]<p so stop j--
+i>j 8>8so swap a[j] and p
+45 50 55 60 65 70 80 75 85 
+
+here pivot is 70
+and i is at 5 position and a[i]<=p 70<=70
+a[i]=80 a[i]>p so stop i++ go for decrementing j. j is at7
+ and j is at 7 position and a[i]<=p75>70
+ and j is at 6 position and a[i]<=p80>70
+a[j]=70 a[j]<p so stop j--
+i>j 6>5so swap a[j] and p
+45 50 55 60 65 70 80 75 85 
+
+here pivot is 80
+and i is at 6 position and a[i]<=p 80<=80
+a[i]=75 a[i]>p so stop i++ go for decrementing j. j is at7
+a[j]=75 a[j]<p so stop j--
+i>j 7>7so swap a[j] and p
+
+
+finally the sorted array is : 
+45 50 55 60 65 70 75 80 85 BUILD SUCCESSFUL (total time: 25 seconds)
